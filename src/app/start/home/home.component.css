@@ -1,0 +1,98 @@
+.container {
+  margin: 20px 50px 0px 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.carrousel {
+  margin: 2% 15% 2% 15%;
+  max-width: 100%;
+  height: 60vmin;
+  border:1px solid rgb(0, 124, 123);
+}
+
+[nz-carousel-content] {
+  text-align: center;
+  background: #364d79;
+  color: #fff;
+  overflow: hidden;
+}
+
+.statement {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: radial-gradient(circle, rgb(0,189,196));
+}
+
+.statement h1{
+  border-bottom: 1px solid black;
+}
+
+h3 {
+  color: #fff;
+  margin-bottom: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.imgs {
+  background-image: url("../../../assets/images/LimpiezaFinObra.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contenedor_card_items {
+  padding: 30px;
+  margin: 0;
+  text-align: center;
+}
+
+.card {
+  margin: 10px;
+}
+
+.img_card {
+  max-width: 100%;
+}
+
+[nz-button] {
+  margin-right: 8px;
+  margin-bottom: 12px;
+  background-image: radial-gradient(circle, rgb(0, 189, 189), rgb(0, 124, 123));
+}
+
+.card_botom {
+  margin: 10px 0px 10px 0px;
+}
+
+/*Aqui empieza el proceso del servicio*/
+
+.proceso{
+  margin-top: 1vmax;
+  text-align: center;
+  background-image: radial-gradient(circle, rgb(0, 189, 189), rgb(0, 124, 123));
+  margin-left: -50px;
+  margin-right: -50px;
+}
+
+.img_proceso {
+  max-width:30%;
+  padding:5px;
+}
+
+.more_information{
+  height: 10vmax;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-content: center;
+}
+
+.more_information_botom{
+  width: 30%;
+  
+}
+

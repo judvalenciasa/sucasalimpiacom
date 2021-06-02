@@ -1,0 +1,161 @@
+<div class="container">
+  <app-navbar></app-navbar>
+  <div class="body">
+    <div class="carrousel">
+      <nz-carousel nzAutoPlay>
+        <div nz-carousel-content *ngFor="let index of array" class="imgs"></div>
+      </nz-carousel>
+    </div>
+
+    <div class="statement">
+      <h1>Servicios de limpieza</h1>
+      <h2>Exelente servicio</h2>
+    </div>
+
+    <div class="contenedor_card">
+      <!-- Aqui esta el error en nzGutter== averiguar nzgutter -->
+      <div nz-row nzJustify="center" class="contenedor_card_items">
+        <div nz-col [nzSpan]="6" class="card">
+          <nz-card nzTitle="Card title" class="card_item1">
+            <div class="card_contenido">
+              <img src="../../../assets/images/LimpiezaOzono.jpg" alt="" class="img_card">
+              <button nz-button nzType="primary" class="card_botom">Saber mas</button>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. repellat exercitationem possimus
+                asperiores lore delectus, cupiditate voluptates?</p>
+            </div>
+          </nz-card>
+        </div>
+        <div nz-col [nzSpan]="6" class="card">
+          <nz-card nzTitle="Card title" class="card_item2">
+            <div class="card_contenido">
+              <img src="../../../assets/images/LimpiezaChalets.jpg" alt="" class="img_card">
+              <button nz-button nzType="primary" class="card_botom">Saber mas</button>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. repellat exercitationem possimus
+                asperiores delectus, cupiditate voluptates?</p>
+            </div>
+          </nz-card>
+        </div>
+        <div nz-col [nzSpan]="6" class="card">
+          <nz-card nzTitle="Card title" class="card_item3">
+            <div class="card_contenido">
+              <img src="../../../assets/images/LimpiezaComunidades.jpg" alt="" class="img_card">
+              <button nz-button nzType="primary" class="card_botom">Saber mas</button>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. repellat exercitationem possimus
+                asperiores delectus, cupiditate voluptates?</p>
+            </div>
+          </nz-card>
+        </div>
+        <div nz-col [nzSpan]="6" class="card">
+          <nz-card nzTitle="Card title" class="card_item4">
+            <div class="card_contenido">
+              <img src="../../../assets/images/LimpiezaDiogenes.jpg" alt="" class="img_card">
+              <button nz-button nzType="primary" class="card_botom">Saber mas</button>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. repellat exercitationem possimus
+                asperiores delectus, cupiditate voluptates?</p>
+            </div>
+          </nz-card>
+        </div>
+        <div nz-col [nzSpan]="6" class="card">
+          <nz-card nzTitle="Card title" class="card_item5">
+            <div class="card_contenido">
+              <img src="../../../assets/images/LimpiezaFinObra.jpg" alt="" class="img_card">
+              <button nz-button nzType="primary" class="card_botom">Saber mas</button>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. repellat exercitationem possimus
+                asperiores delectus, cupiditate voluptates?</p>
+            </div>
+          </nz-card>
+        </div>
+        <div nz-col [nzSpan]="6" class="card">
+          <nz-card nzTitle="Card title" class="card_item6">
+            <div class="card_contenido">
+              <img src="../../../assets/images/LimpiezaNave.jpg" alt="" class="img_card">
+              <button nz-button nzType="primary" class="card_botom">Saber mas</button>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. repellat exercitationem possimus
+                asperiores delectus, cupiditate voluptates?</p>
+            </div>
+          </nz-card>
+        </div>
+        <div nz-col [nzSpan]="6" class="card">
+          <nz-card nzTitle="Card title" class="card_item7">
+            <div class="card_contenido">
+              <img src="../../../assets/images/LimpiezaTraumatica.jpg" alt="" class="img_card">
+              <button nz-button nzType="primary" class="card_botom">Saber mas</button>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. repellat exercitationem possimus
+                asperiores delectus, cupiditate voluptates?</p>
+            </div>
+          </nz-card>
+        </div>
+        <div nz-col [nzSpan]="6" class="card">
+          <nz-card nzTitle="Card title" class="card_item8">
+            <div class="card_contenido">
+              <img src="../../../assets/images/LimpiezaOzono.jpg" alt="" class="img_card">
+              <button nz-button nzType="primary" class="card_botom">Saber mas</button>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. repellat exercitationem possimus
+                asperiores delectus, cupiditate voluptates?</p>
+            </div>
+          </nz-card>
+        </div>
+        <div nz-col [nzSpan]="6" class="card">
+          <nz-card nzTitle="Card title" class="card_item9">
+            <div class="card_contenido">
+              <img src="../../../assets/images/LimpiezaTuristica.jpg" alt="" class="img_card">
+              <button nz-button nzType="primary" class="card_botom">Saber mas</button>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. repellat exercitationem possimus
+                asperiores delectus, cupiditate voluptates?</p>
+            </div>
+          </nz-card>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="statement">
+    <h1>Proceso del servicio</h1>
+  </div>
+
+  <div class="proceso">
+    <div nz-row nzJustify="center">
+      <div nz-col [nzSpan]="6" class="card">
+        <div class="card_contenido">
+          <img src="../../../assets/images/icono_presupuesto.png" alt="" class="img_proceso">
+          <p>Llamanos</p>
+        </div>
+      </div>
+      <div nz-col [nzSpan]="6" class="card">
+        <div class="card_contenido">
+          <img src="../../../assets/images/icono_presupuesto.png" alt="" class="img_proceso">
+          <p>Llamanos</p>
+        </div>
+      </div>
+      <div nz-col [nzSpan]="6" class="card">
+        <div class="card_contenido">
+          <img src="../../../assets/images/icono_presupuesto.png" alt="" class="img_proceso">
+          <p>Llamanos</p>
+        </div>
+      </div>
+      <div nz-col [nzSpan]="6" class="card">
+        <div class="card_contenido">
+          <img src="../../../assets/images/icono_presupuesto.png" alt="" class="img_proceso">
+          <p>Llamanos</p>
+        </div>
+      </div>
+      <div nz-col [nzSpan]="6" class="card">
+        <div class="card_contenido">
+          <img src="../../../assets/images/icono_presupuesto.png" alt="" class="img_proceso">
+          <p>Llamanos</p>
+        </div>
+      </div>
+      <div nz-col [nzSpan]="6" class="card">
+        <div class="card_contenido">
+          <img src="../../../assets/images/icono_presupuesto.png" alt="" class="img_proceso">
+          <p>Llamanos</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div nz-row nzJustify="center" class="more_information">
+    <button nz-button nzType="primary" class="more_information_botom">Saber mas</button>
+  </div>
+  <app-footer></app-footer>
+</div>
