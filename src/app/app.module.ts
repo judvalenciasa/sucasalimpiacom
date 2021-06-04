@@ -17,6 +17,9 @@ import { NzCarouselModule } from 'ng-zorro-antd/carousel';
 import { NzCardModule } from 'ng-zorro-antd/card';
 import { NzGridModule } from 'ng-zorro-antd/grid';
 import { NzButtonModule } from 'ng-zorro-antd/button';
+import { DiogenesComponent } from './servicios/diogenes/diogenes.component';
+import { ChaletsComponent } from './servicios/chalets/chalets.component';
+import { NzImageModule } from 'ng-zorro-antd/image';
 
 
 registerLocaleData(en);
@@ -26,7 +29,9 @@ registerLocaleData(en);
     AppComponent,
     NavbarComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    DiogenesComponent,
+    ChaletsComponent
   ],
   imports: [
     BrowserModule,
@@ -37,7 +42,8 @@ registerLocaleData(en);
     NzCarouselModule,
     NzCardModule,
     NzGridModule,
-    NzButtonModule
+    NzButtonModule,
+    NzImageModule
   ],
   providers: [{ provide: NZ_I18N, useValue: en_US }],
   bootstrap: [AppComponent]

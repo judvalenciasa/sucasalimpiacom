@@ -155,7 +155,39 @@
   </div>
 
   <div nz-row nzJustify="center" class="more_information">
-    <button nz-button nzType="primary" class="more_information_botom">Saber mas</button>
+    <button nz-button Lorem ipsum dolor sit nzType="primary" class="more_information_botom">Saber mas</button>
   </div>
+
+  <div class="testimonials">
+    <nz-carousel nzEffect="scrollx">
+      <div nz-carousel-content class="nz-carousel-content2" *ngFor="let index of array">
+        <div nz-row nzJustify="center" class="contenerdor_card_testimonials">
+          <div nz-col [nzSpan]="6" class="card">
+            <div class="card_contenido">
+              <img src="../../../assets/images/icono_presupuesto.png" alt="" class="img_proceso">
+              <p>Llamanos</p>
+            </div>
+          </div>
+          <div nz-col [nzSpan]="6" class="card">
+            <div class="card_contenido">
+              <img src="../../../assets/images/icono_presupuesto.png" alt="" class="img_proceso">
+              <p>Llamanos</p>
+            </div>
+          </div>
+          <div nz-col [nzSpan]="6" class="card">
+            <div class="card_contenido">
+              <img src="../../../assets/images/icono_presupuesto.png" alt="" class="img_proceso">
+              <p>Llamanos</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nz-carousel>
+  </div>
+
+
+
+
+
   <app-footer></app-footer>
 </div>

@@ -38,10 +38,10 @@ header {
 
 .header_down {
   /*clarito-oscuro*/
-  background-image: radial-gradient(circle, rgb(146, 196, 33), rgb(0, 155, 88));
+  /*background-image: radial-gradient(circle, rgb(146, 196, 33), rgb(0, 155, 88));*/
 
   background-image: radial-gradient(circle, rgb(0, 189, 189), rgb(0, 124, 123));
-  height: 6vmin;
+  height: 5vmin;
   margin: 0;
 }
 
@@ -52,6 +52,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-top: 2px;
 }
 
 .menu_down_item {
