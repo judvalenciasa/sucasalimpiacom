@@ -50,16 +50,7 @@ p {
 /*end statement*/
 
 /*Start card services*/
-.proceso .card,
-.contenedor_card_items .card {
-  background-color: #fff;
-  background-clip: border-box;
-  border: 1px solid #d2d2dc;
-  border-radius: 11px;
-  -webkit-box-shadow: 0px 0px 5px 0px rgb(249, 249, 250);
-  -moz-box-shadow: 0px 0px 5px 0px rgba(212, 182, 212, 1);
-  box-shadow: 0px 0px 5px 0px rgb(161, 163, 164);
-}
+
 
 .contenedor_card_items {
   padding: 25px;
@@ -114,33 +105,42 @@ p {
 /*end card services*/
 
 
-/*Aqui empieza el proceso del servicio*/
+/*nuevo proceso*/
 
 .proceso {
-  display: flex;
-  flex-direction:column;
-  margin-top: 1vmax;
   text-align: center;
   background-image: radial-gradient(circle, rgb(0, 189, 189), rgb(0, 124, 123));
-  width: 100%;
+  padding: 20px;
+  margin-left: -50px;
+  margin-right: -50px;
+  margin-top: 15px;
+}
+.proceso_contenedor{
+
 }
 
-.card_process {
-  margin: 10px;
-  /**/
-  max-width: 40%;
+.proceso_contenedor_card{
+  margin:5px 0px 5px 0px;
 }
 
-.process_card_contenido {
-  display: flex;
+.proceso_contenedor_card_item{
+  display:flex;
   flex-direction: column;
   align-items: center;
+  max-width: 100%;
 }
 
-.img_proceso {
-  max-width: 18%;
-  padding: 5px;
+.proceso_contenedor_card_item_img{
+  max-width: 20%;
 }
+
+
+/*Fin nuevo proceso */
+
+
+
+
+/*Aqui empieza el proceso del servicio*/
 /*end servicesProces*/
 
 /*Response*/
@@ -318,9 +318,9 @@ p {
   width: 30%;
 }
 
-/*,,,,,,,,,,,,,,,,,,,,,,,,,,*/
 
 
+/*,,,,,,,,,,,,,Testimonials,,,,,,,,,,,,,*/
 .nz-carousel-content2 {
   text-align: center;
   height: 160px;
